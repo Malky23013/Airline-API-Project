@@ -1,0 +1,60 @@
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Airline.exe
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Airline.deps.json
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Airline.runtimeconfig.json
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Airline.dll
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Airline.pdb
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Downloads\Airline\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.AssemblyInfo.cs
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\scopedcss\bundle\Airline.styles.css
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.csproj.CopyComplete
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.dll
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\refint\Airline.dll
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.pdb
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\Airline.genruntimeconfig.cache
+C:\Users\User\Downloads\Airline\obj\Debug\net6.0\ref\Airline.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Airline.exe
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Airline.deps.json
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Airline.runtimeconfig.json
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Airline.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Airline.pdb
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.csproj.AssemblyReference.cache
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.AssemblyInfoInputs.cache
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.AssemblyInfo.cs
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\scopedcss\bundle\Airline.styles.css
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.csproj.CopyComplete
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\refint\Airline.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.pdb
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\Airline.genruntimeconfig.cache
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\obj\Debug\net6.0\ref\Airline.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Solid.Data.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Solid.Service.dll
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Solid.Data.pdb
+C:\Users\User\Documents\שנה ו\.net\lesson3-Web Api-Malky Zilberberg\Airline\bin\Debug\net6.0\Solid.Service.pdb

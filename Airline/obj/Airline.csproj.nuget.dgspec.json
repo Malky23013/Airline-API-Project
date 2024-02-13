@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Airline\\Airline.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Airline\\Airline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Airline\\Airline.csproj",
+        "projectName": "Airline",
+        "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Airline\\Airline.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Airline\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj"
+              },
+              "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Data\\Solid.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Data\\Solid.Data.csproj"
+              },
+              "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Service\\Solid.Service.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Service\\Solid.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj",
+        "projectName": "Solid.Core",
+        "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Data\\Solid.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Data\\Solid.Data.csproj",
+        "projectName": "Solid.Data",
+        "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Data\\Solid.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Service\\Solid.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Service\\Solid.Service.csproj",
+        "projectName": "Solid.Service",
+        "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Service\\Solid.Service.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\שנה ו\\.net\\lesson3-Web Api-Malky Zilberberg\\Solid.Core\\Solid.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

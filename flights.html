@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <!-- <style>
+        input {
+            padding: 10px;
+            font-size: 14px;
+            background-color: aquamarine;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+    </style> -->
+    <style>
+        /* Table design */
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        th {
+            background-color: #ccc;
+        }
+
+        /* Form design */
+
+        input,
+        button {
+            padding: 10px;
+            font-size: 14px;
+            background-color: lightblue;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        /* Dropdown list design */
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ccc;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Additional styles */
+
+        body {
+            font-family: sans-serif;
+        }
+
+        /* Header image */
+
+        .header-image {
+            width: 100%;
+            height: 370px;
+            background-image: url("https://image.cnbcfm.com/api/v1/image/107177246-1673454132712-gettyimages-1246154739-AFP_336V8DZ.jpeg?v=1682946269");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.5;
+        }
+
+        /* Header text */
+
+        .header-text {
+            text-align: center;
+            margin-top: 20px;
+            color: lightseagreen;
+            font-size: 50px;
+            font-weight: bold;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-image">
+        <div class="header-text">
+            Travel Agency
+        </div>
+    </div>
+
+    <table class="table table-striped">
+        <tr>
+            <th>
+                <button class="btn btn-primary" onclick="getFlights()">View all flights</button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="btn btn-success" onclick="addFlight()">Create flight</button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="btn btn-warning" onclick="udpateFlight()">Edit flight</button>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <button class="btn btn-danger" onclick="deleteFlight()">Cancel flight</button>
+            </th>
+        </tr>
+    </table>
+    <!-- <button onclick="getEvents()">Get Events</button>
+    <br>
+    <button onclick="addEvent()">Add Event +</button>
+    <br>
+    <button onclick="udpateEvent()">Update Event</button>
+    <br>
+    <button onclick="deleteEvent()">Delete Event</button> -->
+    <script>
+        function getFlights() {
+            var listContainer = document.createElement("ul");
+            axios.get("https://localhost:7088/api/Flights").then(res => {
+                const events = res.data;
+                res.data.forEach((event) => {
+                    var listItem = document.createElement("li");
+                    listItem.textContent = event.id + " Company is:" + event.company + "  Source is: " + event.source + "  Destination is:" + event.destination;
+                    listContainer.appendChild(listItem);
+                });
+                document.body.appendChild(listContainer);
+            });
+        }
+        function addFlight() {
+            var a1 = document.createElement('input');
+            a1.placeholder = "Company";
+            var a2 = document.createElement('input');
+            a2.placeholder = "Destination";
+            var a3 = document.createElement('input');
+            a3.placeholder = "Source";
+            document.body.appendChild(a1);
+            document.body.appendChild(a2);
+            document.body.appendChild(a3);
+
+            var addButton = document.createElement('button');
+            addButton.textContent = "Add Event";
+            addButton.onclick = function () {
+                axios.post("https://localhost:7088/api/Flights", {
+                    "Company": a1.value,
+                    "Destination": a2.value,
+                    "Source": a3.value
+                }).then(res => {
+                    console.log(res.data);
+                });
+            };
+
+            document.body.appendChild(addButton);
+        }
+        function udpateFlight() {
+            var a3 = document.createElement("input");
+            var a4 = document.createElement("input");
+            var a5 = document.createElement("input");
+            a3.id = "a3";
+            a4.id = "a4";
+            a5.id = "a5";
+            a3.placeholder = "Company";
+            a4.placeholder = "Destination";
+            a5.placeholder = "Source";
+            document.body.appendChild(a3);
+            document.body.appendChild(a4);
+            document.body.appendChild(a5);
+            var listContainer = document.createElement("ul");
+            var addButton = document.createElement('button');
+            addButton.textContent = "Update Event";
+            addButton.onclick = function () {
+                axios.get("https://localhost:7088/api/Flights").then(res => {
+                    res.data.forEach((event) => {
+                        var listItem = document.createElement("li");
+                        listItem.textContent = event.id + " Company is:" + event.company + "  Source is: " + event.source + "  Destination is:" + event.destination;
+                        listItem.onclick = function () {
+                            var id = event.id; // Assign the proper ID      
+                            axios.put(`https://localhost:7088/api/Flights/${id}`, {
+                                "Company": a3.value,
+                                "Destination": a4.value,
+                                "Source": a5.value
+                            }).then(res => {
+                                console.log(res.data);
+                            });
+                        }
+                        listContainer.appendChild(listItem);
+                        // Append the list item to the list container  
+                    });
+
+                }); document.body.appendChild(listContainer);
+
+            }
+
+            document.body.appendChild(addButton);
+
+        }
+
+        function deleteFlight() {
+
+            var listContainer = document.createElement("ul");
+            axios.get("https://localhost:7088/api/Flights").then(res => {
+                res.data.forEach((event) => {
+                    var listItem = document.createElement("li");
+                    listItem.textContent = event.id + " Company is:" + event.company + "  Source is: " + event.source + "  Destination is:" + event.destination;
+                    listItem.onclick = function (event) {
+                        var id = event.currentTarget.id;
+                        axios.delete(`hhttps://localhost:7088/api/Flights/${id}`).then(res => {
+                            console.log(res.data);
+                        });
+                    };
+                    listItem.id = event.id;
+                    listContainer.appendChild(listItem);
+                });
+            })
+            document.body.appendChild(listContainer);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
